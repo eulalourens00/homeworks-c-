@@ -1,0 +1,17 @@
+﻿  vector_self.cpp
+C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\vector_self.cpp(65,47): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+      C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\vector_self.cpp(65,47):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\vector_self.cpp(154,21):
+          выполняется компиляция ссылки на экземпляр класс шаблон функции "VectorType<int>"
+          C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\vector_self.cpp(65,5):
+          во время компиляции функции-члена класс шаблон "VectorType<int>::VectorType(std::initializer_list<T>)"
+          with
+          [
+              T=int
+          ]
+              C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\vector_self.cpp(154,27):
+              см. первую ссылку на VectorType<int>::VectorType "main"
+  
+C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\vector_self.cpp(65,70): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  vector_self.vcxproj -> C:\Users\alopo\OneDrive\Рабочий стол\c++\vector_self\x64\Debug\vector_self.exe
